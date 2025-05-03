@@ -36,6 +36,21 @@ foreach (string name in studentNames)
     else if (currentStudent == "Logan")
         studentScores = loganScores;
 
+    else if (currentStudent == "Becky")
+        studentScores = beckyScores;
+
+    else if (currentStudent == "Chris")
+        studentScores = chrisScores;
+
+    else if (currentStudent == "Eric")
+        studentScores = ericScores;
+
+    else if (currentStudent == "Gregor")
+        studentScores = gregorScores;
+
+    else
+        continue;
+
     // initialize/reset the sum of scored assignments
     int sumAssignmentScores = 0;
 
