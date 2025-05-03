@@ -12,3 +12,15 @@ string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 int[] studentScores = new int[10];
 
 string currentStudentLetterGrade = "";
+
+// Write the Report Header to the console
+Console.WriteLine("Student\t\tGrade\n");
+
+foreach (string name in studentNames)
+{
+    
+}
+
+// required for running in VS Code (keeps the Output windows open to view results)
+Console.WriteLine("\n\rPress the Enter key to continue");
+Console.ReadLine();
